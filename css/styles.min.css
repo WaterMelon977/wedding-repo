@@ -97,6 +97,42 @@ section#map {
   background: rgba(236,164,97,0.32);
 }
 
+footer {
+  background: #fff6f0;
+  padding: 60px 0 40px;
+}
+.footer-social {
+  margin-top: 20px;
+}
+.footer-social a {
+  display: inline-block;
+  margin: 0 12px;
+  font-size: 24px;
+  color: #eca461;
+  transition: color 0.3s, transform 0.3s;
+}
+.footer-social a:hover {
+  color: #d3893a;
+  transform: translateY(-3px);
+}
+.to-top-wrapper {
+  background: linear-gradient(90deg, #eca461 0%, #e8ca6f 100%);
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 4px 16px rgba(236,164,97,0.25);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.to-top-wrapper:hover {
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 8px 24px rgba(236,164,97,0.35);
+}
+
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: none; }
